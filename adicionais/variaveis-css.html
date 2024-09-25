@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis no CSS</title>
+
+    <style>
+
+        /*Declarar variaveis usando
+        selector pseudo-classe :root */
+        :root {
+            --cor: orange;
+            --bordaArredondada: 4px 8px 12px 6px;
+            --corFundo: linear-gradient(black, red);
+        }
+
+
+        h1 { color: var(--cor);
+            background: var(--corFundo);
+            border-radius: var(--bordaArredondada);
+        }
+        h2 { border: solid var(--cor) 2px; }
+        p { text-shadow: var(--cor) 2px 2px 5px; }
+    </style>
+</head>
+
+<body>
+    <h1>Usando variaveis no CSS</h1>
+    <br>
+    <h2>Front-End</h2>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias doloremque odit non? Tempore earum, impedit nesciunt voluptatum vel quam deserunt velit sunt ullam, quibusdam neque rem inventore facilis! Eaque, atque.
+
+    </p>
+    <h2>Back-End</h2>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, pariatur. Quas atque, dignissimos sit deserunt nam doloremque. Excepturi accusantium dolorem consectetur neque illum consequatur, est molestias error delectus beatae autem.
+
+    </p>
+
+</body>
+
+</html>
