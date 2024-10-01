@@ -162,9 +162,9 @@ a {
 
 .destaque h2,
 .destaque p {
-
+    color: var(--cor-clara);
     animation-name: animaDestaque;
-    animation-duration: 0, 5s;
+    animation-duration: 0.5s;
 
     /*animation-iteration-count: infinite;
     animation-direction: alternate;*/
@@ -181,4 +181,28 @@ um valor MIN,IDEAL/FLEXIVEL/VARIAVEL,MAX.*/
 
 .destaque p {
     font-size: clamp(1.5rem, 3vw, 3rem);
+}
+
+article h2 {
+
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    color: var(--cor-titulo);
+}
+
+article p {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+article address {
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.front-end,
+.historia,
+.localizacao {
+    text-align: center;
 }
