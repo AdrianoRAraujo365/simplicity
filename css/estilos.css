@@ -169,3 +169,16 @@ a {
     /*animation-iteration-count: infinite;
     animation-direction: alternate;*/
 }
+
+/*Função clamp()
+usada para definir um valor que se ajusta dinamicamente entre 
+um valor MIN,IDEAL/FLEXIVEL/VARIAVEL,MAX.*/
+
+.destaque h2 {
+    font-size: clamp(3rem, 10vw, 7rem);
+}
+
+
+.destaque p {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+}
