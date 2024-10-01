@@ -206,3 +206,73 @@ article address {
 .localizacao {
     text-align: center;
 }
+
+
+/* Estilo para o artigo com plano de fundo */
+.historia {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    /* Caminho da imagem de fundo */
+    background-size: cover;
+    /* Cobrir todo o espaço do artigo */
+    background-attachment: fixed;
+    /* Manter a imagem parada ao rolar a página */
+    background-position: center;
+    /* Centralizar a imagem */
+    padding: 20px;
+    color: #fff;
+    /* Cor do texto para contraste com o fundo */
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    /* Garantir que o artigo ocupe pelo menos 100% da altura da viewport */
+}
+
+/* Estilo adicional opcional 
+.historia h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.historia p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}*/
+
+.historia h2 {
+    background-color: #333;
+    margin: 0;
+}
+
+.historia h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--cor-clara);
+    /* Cor clara para o texto */
+    text-shadow: red 2px 2px 5px;
+    /* Sombra para o texto */
+
+
+}
+
+.historia iframe {
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.localizacao iframe {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.rodape {
+    /*Fundo escuro para destacar o claro*/
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    height: 30vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
