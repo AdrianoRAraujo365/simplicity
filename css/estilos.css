@@ -98,7 +98,7 @@ criar limites de tamanho. */
     width: 95vw;
     max-width: 1000px;
     margin: auto;
-    background-color:var(--cor-clara);
+    background-color: var(--cor-clara);
 }
 
 .titulo-menu a {
@@ -363,12 +363,20 @@ tr:nth-child(even) {
 }
 
 .galeria {
-    
-    flex-wrap: wrap;
-    border: ;
-   
+
+    text-align: center;
 }
 
-.img-galeria{
-    transform: scale(1.5);
+.galeria img {
+    border-radius: 50%;
+    box-shadow: var(--cor-escura) 0 0 10px;
+    transform: scale(0.8) rotate(-20deg);
+    transition: 0.5s;
+
+}
+
+.galeria img:hover {
+
+    transform: scale(1);
+
 }
