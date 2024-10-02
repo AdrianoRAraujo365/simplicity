@@ -98,7 +98,7 @@ criar limites de tamanho. */
     width: 95vw;
     max-width: 1000px;
     margin: auto;
-    background-color: yellow;
+    background-color:var(--cor-clara);
 }
 
 .titulo-menu a {
@@ -360,4 +360,15 @@ ou odd (impar)*/
 tr:nth-child(even) {
     background-color: var(--cor-clara);
 
+}
+
+.galeria {
+    
+    flex-wrap: wrap;
+    border: ;
+   
+}
+
+.img-galeria{
+    transform: scale(1.5);
 }
