@@ -73,7 +73,7 @@ a {
 
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -334,9 +334,20 @@ th:last-child {
 
     text-align: right;
 }
+
 /* Selecionando linhas alteradas. Podemos usar even (par) 
 ou odd (impar)*/
-tr:nth-child(even){
-    background-color:var(--cor-clara);
+tr:nth-child(even) {
+    background-color: var(--cor-clara);
 
+}
+/* Classe que será aplicada em algumas partes do site visando
+criar limites de tamanho. */
+
+.limitador{
+
+    width: 95vw;
+    max-width: 1000px;
+    margin: auto;
+    background-color: yellow;
 }
