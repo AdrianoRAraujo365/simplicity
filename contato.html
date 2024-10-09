@@ -49,20 +49,48 @@
                 <div>
 
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome" placeholder="Digite o nome completo">
+                    <input required type="text" name="nome" id="nome" placeholder="Digite o nome completo">
 
                 </div>
 
                 <div>
 
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Digite o seu email">
+                    <input required type="email" name="email" id="email" placeholder="Digite o seu email">
 
                 </div>
 
                 <div>
                     <label for="nascimento">Data de nascimento:</label>
                     <input type="date" name="nascimento" id="nascimento">
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+                <div>
+                    <label for="assunto">Assunto:</label>
+                    <select name="assunto" id="assunto">
+                        <!-- Sempre deixe um option vazio
+                         para que o usuário escolha por
+                         conta propria -->
+
+                        <option value=""></option>
+                        <option>Dúvidas</option>
+                        <option>Elogios</option>
+                        <option>Reclamações</option>
+                        <option>Outros</option>
+
+                    </select>
+
+                    <div>
+                        <!-- Sempre inicie o termine o textarea na mesma linha -->
+                        <label for="Mensagem">Mensagem:</label>
+                        <textarea required name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">Enviar dados</button>
+
                 </div>
 
 
