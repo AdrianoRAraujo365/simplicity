@@ -428,6 +428,24 @@ button:focus {
     cursor: pointer;
 }
 
+#area-do-cep {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cep {
+    width: 50%;
+}
+
+#buscar {
+    width: 49%;
+    padding: 12px;
+}
+
+.campos-restantes {
+    display: none;
+}
+
 /*Regras Condicionais usanso Media Queries*/
 @media screen and (min-width:600px) {
 
